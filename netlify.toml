@@ -1,2 +1,7 @@
 [build]
   functions = "lambda"
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  headers = {X-From = "Netlify"}
