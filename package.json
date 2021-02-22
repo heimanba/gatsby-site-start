@@ -27,6 +27,7 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "lambda":"npx netlify-lambda serve src/functions",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
